@@ -23,15 +23,24 @@ function Hero() {
             Connect me on:
           </Typography>
           <div className="gap-2 lg:flex">
+            <a href="https://www.linkedin.com/in/ishimwe-justin-a67b85268/">
+              <IconButton variant="text" color="gray">
+                <i className="fa-brands fa-linkedin text-lg" />
+              </IconButton>
+            </a>
+
+            <a href="https://twitter.com/ishimwejustin67">
             <IconButton variant="text" color="gray">
-              <i className="fa-brands fa-facebook text-lg" />
+              <i className="fa-brands fa-twitter text-lg" />
             </IconButton>
-            <IconButton variant="text" color="gray">
-              <i className="fa-brands fa-instagram text-lg" />
-            </IconButton>
+            </a>
+
+            <a href="https://github.com/jusish">
             <IconButton variant="text" color="gray">
               <i className="fa-brands fa-github text-lg" />
             </IconButton>
+            </a>
+         
           </div>
         </div>
       </div>
